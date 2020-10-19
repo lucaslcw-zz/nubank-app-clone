@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "inter-bank-app-clone",
-    "slug": "inter-bank-app-clone",
+    "name": "nubank-app-clone",
+    "slug": "nubank-app-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#8a05be"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
