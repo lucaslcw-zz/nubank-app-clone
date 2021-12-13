@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Container, List } from './styles';
 
-import HeaderComponent from '../../components/Header';
-import CreditComponent from '../../components/Credit';
-import BalanceComponent from '../../components/Balance';
-import MenuComponent from '../../components/Menu';
+import {
+  HeaderComponent,
+  CreditComponent,
+  BalanceComponent,
+  MenuComponent
+} from '../../components';
 
 export default function HomeScreen() {
-
   const [balanceVisible, setBalanceVisible] = useState(true);
 
   const handleBalanceVisible = () => {
