@@ -1,4 +1,4 @@
-import styled from 'styled-components/native';
+import styled from 'styled-components/native'
 
 export const Container = styled.View`
   padding: 40px 0;
@@ -7,18 +7,18 @@ export const Container = styled.View`
   justify-content: space-between;
   margin: 0 15px;
   margin-top: 20px;
-`;
+`
 
 export const Name = styled.Text`
   margin-left: 10px;
   font-weight: 600;
   font-size: 28px;
   color: #fff;
-`;
+`
 
 export const ButtonContainer = styled.View`
   flex-direction: row;
-`;
+`
 
 export const Button = styled.TouchableOpacity`
   width: 45px;
@@ -28,4 +28,4 @@ export const Button = styled.TouchableOpacity`
   justify-content: center;
   border-radius: 50px;
   margin-left: 10px;
-`;
+`

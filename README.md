@@ -1,5 +1,5 @@
-# NuBank - clone app
-Simple app cloned with React Native
+# Nubank Clone App
+Simple app cloned with React Native and Expo.
 
 ## Preview
 ![](https://media.giphy.com/media/MkFmsbV5cgvxfelt5x/giphy.gif)
@@ -9,6 +9,3 @@ Simple app cloned with React Native
 
 ## Features
 * Toggle balance visibility
-
-## Version
-Currently the clone is at version 1.0.0

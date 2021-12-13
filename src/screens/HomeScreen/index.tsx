@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import { Container, List } from './styles';
+import React, { useState } from 'react'
+import { StatusBar } from 'expo-status-bar'
 
 import {
   HeaderComponent,
   CreditComponent,
   BalanceComponent,
   MenuComponent
-} from '../../components';
+} from '../../components'
+import { Container, List } from './styles'
 
-export default function HomeScreen() {
-  const [balanceVisible, setBalanceVisible] = useState(true);
+const HomeScreen: React.FC = () => {
+  const [balanceVisible, setBalanceVisible] = useState<boolean>(true)
 
-  const handleBalanceVisible = () => {
-    setBalanceVisible(!balanceVisible);
-  };
+  const handleBalanceVisible = () => setBalanceVisible(!balanceVisible)
 
   return (
     <Container>
+      <StatusBar style='light' />
       <HeaderComponent handleBalanceVisible={handleBalanceVisible} />
       <List showsVerticalScrollIndicator={false}>
         <CreditComponent balanceVisible={balanceVisible} />
@@ -26,3 +26,5 @@ export default function HomeScreen() {
     </Container>
   )
 }
+
+export default HomeScreen
