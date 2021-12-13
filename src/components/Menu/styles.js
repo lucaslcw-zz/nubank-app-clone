@@ -17,6 +17,7 @@ export const Card = styled.View`
   border-radius: 5px;
   margin: 0 5px;
   justify-content: space-between;
+  margin-bottom: 20px;
 `;
 
 export const Title = styled.Text`
